@@ -52,6 +52,8 @@ optimizer="adam", metrics=['accuracy'])
 
 model.fit(X, y, batch_size=32, epochs=10)
 
+#model = keras.models.load_model("kerasModel_1_0_MIXED")
+
 model.save("kerasModel_1_0_MIXED")
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 tflite_model = converter.convert()
