@@ -29,25 +29,7 @@ y = np.array(y)
 
 image_size = (500, 500)
 batch_size = 32
-# train_ds = tf.keras.preprocessing.image_dataset_from_directory(
-#     r"C:\Users\chern\androidRepository\NNData\RoadClassification\KernelClass",
-#     validation_split=0.2,
-#     subset="training",
-#     seed=1337,
-#     image_size=image_size,
-#     color_mode="grayscale",
-#     batch_size=batch_size
-# )
-
-# val_ds = tf.keras.preprocessing.image_dataset_from_directory(
-#     r"C:\Users\chern\androidRepository\NNData\RoadClassification\KernelClass",
-#     validation_split=0.2,
-#     subset="validation",
-#     seed=1337,
-#     image_size=image_size,
-#     color_mode="grayscale",
-#     batch_size=batch_size
-# )
+# onii-chan
 
 NAME = "Classic-100-{}".format(int(time.time()))
 
