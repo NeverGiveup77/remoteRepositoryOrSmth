@@ -142,6 +142,8 @@ img_array = keras.preprocessing.image.img_to_array(img)
 plt.imshow(img_array)
 img_array = tf.expand_dims(img_array, 0)  # Create batch axis
 
+#  neko kawaii
+# one more neeko
 predictions = model.predict(img_array)
 score = predictions[0]
 print(
