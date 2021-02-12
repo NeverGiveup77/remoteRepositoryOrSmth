@@ -31,6 +31,7 @@ image_size = (500, 500)
 batch_size = 32
 # onii-chan
 
+# kudasai onee---chan!
 NAME = "Classic-100-{}".format(int(time.time()))
 
 tensorboard = TensorBoard(log_dir='Classic/logs/{}'.format(NAME))
