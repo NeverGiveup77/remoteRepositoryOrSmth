@@ -29,9 +29,10 @@ y = np.array(y)
 
 image_size = (500, 500)
 batch_size = 32
-# conflict
 
-# conflict
+# doing work or smthin
+# one more work
+
 NAME = "Classic-100-{}".format(int(time.time()))
 
 tensorboard = TensorBoard(log_dir='Classic/logs/{}'.format(NAME))
